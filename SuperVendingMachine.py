@@ -31,9 +31,10 @@ class VendingMachine:
     def show_balance(self):
         print(f"you have ${self.balance} in your account")
 
-    def add_item(self, item, quantity):
+    def add_item(self, item, quantity, price):
         self.inventory[item] += quantity
-    
+        self.prices[item] = price
+
     def buy_item(self, item):
         # try catch block
         try:
@@ -75,7 +76,6 @@ class VendingMachine:
         print("show transactions")
 
     #TODO
-    # implement help
     # implement precise change
 
 
