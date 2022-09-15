@@ -41,7 +41,7 @@ For my development environment, I use [MS Code](https://code.visualstudio.com/) 
     1. readme with instructions on how to run the program and any dependencies, assumptions, etc.  
     2. sample input: the dataset you used for your program
     3. the source code
-2. Submit the https link to your github project so that I can run  
+2. Submit the github https link in MS Teams so that I can pull down your repo by running:   
 
     git clone https...  
 
