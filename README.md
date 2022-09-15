@@ -6,7 +6,7 @@ You will create a program that acts as a super vending machine, even better than
 # Project Description
 
 You are going to implement a text driven super vending machine.  The design will be up to you, but will be required to read commandline data:
-| Command                             | Example                  | Description                                                 |
+| Command Syntax                            | Example                  | Description                                                 |
 | ------------------------------------|--------------------------|-------------------------------------------------------------| 
 | balance                             | balance                  | shows the balance                                           |    
 | history                             | history                  | prints list of transactions                                 |
