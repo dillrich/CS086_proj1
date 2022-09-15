@@ -19,14 +19,14 @@ You are going to implement a text driven super vending machine.  The design will
 
 ## Sample Input
 
-The sample input below is a sequence of correctly formatted commands. Your program should detect and ignore commands that are not correctly formatted.
+The sample input below is a sequence of correctly formatted commands. Your program should detect and ignore commands that are not correctly formatted.  
 
-add item chips 20 $.50
-add item coke 5 $.75
-inventory
-buy item coke 0 3 0 0 0 
-inventory
-buy item chips 1 0 0 0 0
-inventory
-history 
+add item chips 20 \$.50  
+add item coke 5 \$.75  
+inventory  
+buy item coke 0 3 0 0 0  
+inventory  
+buy item chips 1 0 0 0 0  
+inventory  
+history  
 balance
