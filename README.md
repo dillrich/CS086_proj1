@@ -34,5 +34,5 @@ The sample input below is a sequence of correctly formatted commands. Your progr
     balance
 
 ## Strategy
-There are many different ways to implement.  If you make an assumption, state it in the comments.  If you used a tutorial or found code online, add the reference location in the comments. Your program should provide basic error checking.  Review the [python 3.10 documentation](https://docs.python.org/3.10/). This website on [regular expressions](https://pythex.org/) may also be helpful. 
+For my development environment, I use [MS Code](https://code.visualstudio.com/) on Windows with [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) and the Ubuntu LTS.  I rely on [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html) in order to manage python libraries and set the python version.  There are many different ways to implement.  If you make an assumption, state it in the comments.  If you used a tutorial or found code online, add the reference location in the comments. Your program should provide basic error checking.  Review the [python 3.10 documentation](https://docs.python.org/3.10/). This website on [regular expressions](https://pythex.org/) may also be helpful. 
 
