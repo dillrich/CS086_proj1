@@ -6,8 +6,8 @@ class VendingMachine:
         print(f"Welcome to {self.name}!")
 
         self.balance = 0 # assume start with $0
-        self.inventory = {"Coke": 10, "Sprite": 10, "Water": 10}
-        self.prices = {"Coke": 1.50, "Sprite": 1.50, "Water": 1.00}
+        self.inventory = {"coke": 10, "sprite": 10, "water": 10}
+        self.prices = {"coke": 1.50, "sprite": 1.50, "water": 1.00}
         self.transactions = {}
 
     def show_inventory(self):
@@ -89,8 +89,9 @@ if __name__ == "__main__":
     alley_machine.show_inventory_with_prices()
     alley_machine.add_money(10)
     alley_machine.show_balance()
-    alley_machine.buy_item("Coke")
+    alley_machine.buy_item("coke")
     alley_machine.show_balance()
 
-    alley_machine.buy_item("Water")
+    alley_machine.buy_item("water")
     alley_machine.show_transactions()
+    alley_machine.help()
