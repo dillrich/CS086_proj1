@@ -34,5 +34,5 @@ The sample input below is a sequence of correctly formatted commands. Your progr
     balance
 
 ## Strategy
-There are many different ways to implement.  If you make an assumption, state it in the comments.  If you used a tutorial or found code online, add the reference location in the comments. Your program should provide basic error checking.  Review python regular expressions and string parsing techniques.  One suggestion is to use python with a for loop and various conditions. Have the user type in the command, parse it, and then provide the correct output.  In python 3.10 there is a pattern matching option.  
+There are many different ways to implement.  If you make an assumption, state it in the comments.  If you used a tutorial or found code online, add the reference location in the comments. Your program should provide basic error checking.  Review the [python 3.10 documentation](https://docs.python.org/3.10/). This website on [regular expressions](https://pythex.org/) may also be helpful. 
 
